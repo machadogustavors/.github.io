@@ -46,7 +46,6 @@ html{
   transform: translate(-50%, -50%);
   background-color: #fff;
   width: 80%;
-  height: 370px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -139,7 +138,46 @@ header {
   text-align: center;
 }
 
-.pg {
+/* MACOZEB INFO*/
+.container-mancozeb {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+  /* border: 3px solid black;
+  border-radius: 15px; */
+}
+
+.container-mancozeb-info1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mancozeb-img-img {
+  width: 30vh;
+  height: 35vh;
+  margin-right: -45px;
+  margin-left: -51px;
+}
+
+.mancozeb-info h1 {
+  margin: 24px 5px 10px 7px;
+  text-align: left;
+}
+
+.mancozeb-info p {
+  font-size: 16px;
+  text-align: justify;
+  margin: 20px 5px 10px 7px;
+}
+
+.container-mancozeb-info2 {
+  font-size: 16px;
+  text-align: justify;
+  margin: -18px 5px 10px 7px;
+}
+
+/* OUTRAS */
+.container {
   padding-top: 10vh;
 }
 
@@ -159,7 +197,7 @@ header {
   background-color: #333;
 }
 
-.light h1{
+/* .light h1{
   color: #333;
   font-size: 35px;
   font-weight: 700;
@@ -193,13 +231,13 @@ header {
   padding: 10px;
   margin-top: 30px;
   font-size: 17px;
-}
+} */
 
-.what .img-product{
+/* .what .img-product{
   width: 80vw;
   margin-top: 15px;
   max-height: 400px;
-}
+} */
 
 .img-product:nth-of-type(2){
   box-shadow: 0px 3px 10px #000;
