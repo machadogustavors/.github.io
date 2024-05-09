@@ -9,14 +9,53 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Splash&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 
 <body>
+  <div id="fundo-ofuscado"></div>
+
+  <div id="agronomia-info" class="curso-info">
+    <div class="header-curso">
+      <img src="logo-agro.png" alt="Logo Agronomia">
+      <h3>Curso de Agronomia</h3>
+      <span class="fechar-box"><i class="bi bi-x-circle" style="color: black;"></i></span>
+    </div>
+    <div class="info-curso">
+      <p>
+        O curso de Agronomia está voltado para todas as etapas da agropecuária -
+        do plantio e da criação de rebanhos à comercialização da produção. A agronomia
+        é considerada uma área de estudo multidisciplinar que envolve conhecimentos das
+        ciências exatas e das ciências biológicas.
+      </p>
+    </div>
+  </div>
+
+  <div id="engcomp-info" class="curso-info">
+    <div class="header-curso">
+      <img src="logo-eng.png" alt="Logo Eng. de Computação">
+      <h3>Curso de Engenharia de Computação</h3>
+      <span class="fechar-box"><i class="bi bi-x-circle" style="color: black;"></i></span>
+    </div>
+    <div class="info-curso">
+      <p>
+        O curso de Engenharia de Computação atua na formação de um profissional 
+        capacitado para a especificação, o desenvolvimento, a implantação e a
+        operação de projetos de sistemas computacionais.
+      </p>
+      <p>
+        Engloba pesquisas em computação móvel, cloud computing e computação de alto
+        desempenho (HPC).
+      </p>
+    </div>
+  </div>
+
+
   <header>
     <div class="div-header">
       <div class="logo-container">
-        <img class="img-logo" src="logo-agro.png">
+        <img class="img-logo logo-agro" src="logo-agro.png">
         <h3>AGRONOMIA</h3>
       </div>
       <div class="title-container">
@@ -24,7 +63,7 @@
         <h1>MANCOZEB</h1>
       </div>
       <div class="logo-container">
-        <img class="img-logo" src="logo-eng.png">
+        <img class="img-logo logo-eng" src="logo-eng.png">
         <h3>ENG. DE <br>COMPUTAÇÃO</h3>
       </div>
     </div>
@@ -60,6 +99,8 @@
     <p>não é persistente no solo, mas é persistente na água</p>
     <p>pouco tóxico porém com efeitos adversos na reprodução/desenvolvimento de mamíferos</p>
   </div>
+
+  <script src="script.js"></script>
 </body>
 <!--fim-->
 
