@@ -16,6 +16,18 @@ html{
   width: 100%;
 }
 
+.container {
+  padding-top: 14vh;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 /* MENU SUSPENSO CURSOS */
 
 #fundo-ofuscado {
@@ -74,6 +86,10 @@ html{
 
 .curso-info p {
   font-size: 16px;
+}
+
+.container-info {
+  margin: 20px 10px;
 }
 
 /* HEADER */
@@ -142,7 +158,6 @@ header {
 .container-mancozeb {
   display: flex;
   flex-direction: column;
-  margin: 20px 10px;
 }
 
 .container-mancozeb-info1 {
@@ -157,23 +172,14 @@ header {
 }
 
 .mancozeb-info h1 {
-  margin: 24px 5px 0 7px;
+  margin: 0p 5px 0 7px;
   text-align: left;
 }
 
 .mancozeb-info p {
-  font-size: 14px;
-  text-align: justify;
-  margin: 20px 5px 10px 7px;
+  margin: 20px 5px 0 7px;
 }
 
-.container-mancozeb-info2 p {
-  font-size: 14px;
-  text-align: justify;
-  margin-top: 7px;
-  margin-left: 7px;
-  margin-right: 7px;
-}
 
 /* OUTRAS */
 .container {
