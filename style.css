@@ -17,7 +17,7 @@ html{
 }
 
 .container {
-  padding-top: 15%;
+  padding-top: 25%;
 }
 
 p {
@@ -29,7 +29,6 @@ p {
 }
 
 /* MENU SUSPENSO CURSOS */
-
 #fundo-ofuscado {
   display: none;
   position: fixed;
@@ -160,6 +159,10 @@ header {
   flex-direction: column;
 }
 
+.mancozeb-info {
+  margin-top: 10%;
+}
+
 .container-mancozeb-info1 {
   display: flex;
   flex-direction: row;
@@ -182,10 +185,6 @@ header {
 
 
 /* OUTRAS */
-.container {
-  padding-top: 10vh;
-}
-
 .default{
   height: 100vh;
   display: flex;
