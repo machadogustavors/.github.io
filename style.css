@@ -15,11 +15,11 @@ html{
 }
 
 .light-gradient{
-    background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(173,173,173,1) 30%, rgba(61,61,61,1) 100%) !important;
+    background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(173,173,173,1) 50%, rgba(61,61,61,1) 100%) !important;
 }
 
 .dark-gradient{
-    background: linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(173,173,173,1) 30%, rgba(222,222,222,1) 100%) !important;
+    background: linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(173,173,173,1) 50%, rgba(222,222,222,1) 100%) !important;
 }
 
 .container {
