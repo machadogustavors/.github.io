@@ -10,14 +10,12 @@ html, body{
 }
 
 html{
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
 }
 
 .container {
-  padding-top: 25%;
+  padding-top: 8vh;
 }
 
 p {
@@ -170,8 +168,9 @@ header {
 
 .mancozeb-img-img {
   width: 25vh;
-  height: 30vh;
-  margin-top: 45px;
+  height: 40vh;
+  margin-top: 7vh;
+  margin-right: -3px;
 }
 
 .mancozeb-info h1 {
@@ -190,7 +189,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .light{
@@ -227,15 +226,11 @@ header {
   -webkit-text-shadow: 0px 3px 10px #000;
   -moz-text-shadow: 0px 3px 10px #000;
   margin-top: 30px;
-}
+}*/
 
-.dark p{
-  color: #eee;
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-  font-size: 17px;
-} */
+.dark {
+  color: #fff;
+}
 
 /* .what .img-product{
   width: 80vw;
