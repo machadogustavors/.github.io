@@ -18,6 +18,10 @@ html{
   padding-top: 8vh;
 }
 
+.container-2 {
+  padding-top: 4vh;
+}
+
 p {
   font-size: 14px;
   text-align: justify;
