@@ -14,14 +14,6 @@ html{
   width: 100%;
 }
 
-/*.light-gradient{
-    background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(173,173,173,1) 90%, rgba(61,61,61,1) 100%) !important;
-}
-
-.dark-gradient{
-    background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(173,173,173,1) 90%, rgba(61,61,61,1) 100%) !important;
-}*/
-
 .container {
   padding-top: 8vh;
 }
@@ -197,7 +189,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* scroll-snap-align: start; */
 }
 
 .light{
@@ -208,43 +199,9 @@ header {
   background-color: #333;
 }
 
-/* .light h1{
-  color: #333;
-  font-size: 35px;
-  font-weight: 700;
-  text-shadow: 0px 3px 10px #aaa;
-  -webkit-text-shadow: 0px 3px 10px #aaa;
-  -moz-text-shadow: 0px 3px 10px #aaa;
-  margin-top: 30px;
-}
-
-.light p{
-  color: #000;
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-  font-size: 17px;
-}
-
-.dark h1{
-  color: #bbb;
-  font-size: 35px;
-  font-weight: 700;
-  text-shadow: 0px 3px 10px #000;
-  -webkit-text-shadow: 0px 3px 10px #000;
-  -moz-text-shadow: 0px 3px 10px #000;
-  margin-top: 30px;
-}*/
-
 .dark {
   color: #fff;
 }
-
-/* .what .img-product{
-  width: 80vw;
-  margin-top: 15px;
-  max-height: 400px;
-} */
 
 .img-product:nth-of-type(2){
   box-shadow: 0px 3px 10px #000;
@@ -252,14 +209,6 @@ header {
   -moz-box-shadow: 0px 3px 10px #000;
 }
 
-p.formula{
-  font-size: 25px;
-}
-
 h1.center{
   text-align: center;
-}
-
-img.top{
-  margin-top: 30px;
 }
